@@ -1,6 +1,6 @@
 ## librerias a utilizar
 require(data.table)
-##library(dplyr)
+require(dplyr)
 
 ##======================== Train =========================
 ##1. Merges the training and the test sets to create one data set.
