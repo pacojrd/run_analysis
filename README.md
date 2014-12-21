@@ -15,6 +15,7 @@ The fourth and last part:
 1) combine records Train and Test in one datatable
 2) They group the records by Subject and Activity calculating the averages that define a dataset Summary
 
+===============================
 Español:
 El script se integra por cuatro grandes partes. La primera parte obtiene las variables del vector principal y las etiqueta de actividades. Las dos siguientes partes (corresponden a Train y Test) se compone de los pasos siguientes:
 1) Cargar Subject_...txt
