@@ -2,15 +2,16 @@
 require(data.table)
 require(dplyr)
 
-##======================== Train =========================
-##1. Merges the training and the test sets to create one data set.
-##a) Crear un dataset completa de Train
-## cargar etiquetas de vector y actividades
-
+## se obtiene las variables calculadas y las etiquetas de actividades
 nom_vector <- read.table("./data/UCI HAR Dataset/features.txt")
 nom_vector <- as.vector(nom_vector)
 act <- data.table(read.table("./data/UCI HAR Dataset/activity_labels.txt"))
 setkey(act, V1)
+
+##======================== Train =========================
+##1. Merges the training and the test sets to create one data set.
+##a) Crear un dataset completa de Train
+## cargar etiquetas de vector y actividades
 
 ##a.1. Cargar Subject_train.txt, representa al sujeto
 sujeto <- read.table("./data/UCI HAR Dataset/train/subject_train.txt")
