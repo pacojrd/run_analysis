@@ -48,7 +48,7 @@ fBodyGyroMag,
 fBodyGyroJerkMag), mean's and std.
 
 ### Result
-The code based on variables specified files and generates a datset containing the mean and standard deviation of the variables grouped by voluntary and activity. The statistics of the variables are:
+The code based on variables specified files and generates a dataset (Tidy Data Set) containing the mean and standard deviation of the variables grouped by voluntary and activity. The statistics of the variables are:
 * Group.1 (voluntary)
 * Group.2 (activity)
 * tBodyAcc-mean()-X
