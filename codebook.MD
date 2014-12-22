@@ -9,11 +9,43 @@ For this proyect, only used next variables:
 
 * train_y : IDs for each of the 6 activities, 1:6, for training dataset. The mapped names are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 * train_subject: IDs of 30 volunteers performed 6 different activities in training dataset.
-* train_x: The observations of measurements on 561 features, but for this proyect only used 79 features, mean's and std.
+* train_x: The observations of measurements on 561 features, but for this proyect only used 79 features (tBodyAcc-XYZ, 
+tGravityAcc-XYZ, 
+tBodyAccJerk-XYZ, 
+tBodyGyro-XYZ, 
+tBodyGyroJerk-XYZ, 
+tBodyAccMag, 
+tGravityAccMag, 
+tBodyAccJerkMag, 
+tBodyGyroMag, 
+tBodyGyroJerkMag, 
+fBodyAcc-XYZ, 
+fBodyAccJerk-XYZ, 
+fBodyGyro-XYZ, 
+fBodyAccMag, 
+fBodyAccJerkMag, 
+fBodyGyroMag, 
+fBodyGyroJerkMag), mean's and std.
 
 * test_y: IDs for each of the 6 activities, 1:6, for test dataset. The mapped names are WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 * test_subject: IDs of 30 volunteers performed 6 different activities in test dataset.
-* test_x: The observations of measurements on 561 features, but for this proyect only used 79 features, mean's and std.
+* test_x: The observations of measurements on 561 features, but for this proyect only used 79 features (tBodyAcc-XYZ, 
+tGravityAcc-XYZ, 
+tBodyAccJerk-XYZ, 
+tBodyGyro-XYZ, 
+tBodyGyroJerk-XYZ, 
+tBodyAccMag, 
+tGravityAccMag, 
+tBodyAccJerkMag, 
+tBodyGyroMag, 
+tBodyGyroJerkMag, 
+fBodyAcc-XYZ, 
+fBodyAccJerk-XYZ, 
+fBodyGyro-XYZ, 
+fBodyAccMag, 
+fBodyAccJerkMag, 
+fBodyGyroMag, 
+fBodyGyroJerkMag), mean's and std.
 
 ### Result
 The code based on variables specified files and generates a datset containing the mean and standard deviation of the variables grouped by voluntary and activity. The statistics of the variables are:
